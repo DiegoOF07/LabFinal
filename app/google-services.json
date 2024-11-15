@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821554692741",
+    "project_id": "labfinal-32a53",
+    "storage_bucket": "labfinal-32a53.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821554692741:android:f8a6cb9dfbc33c7c2b9fec",
+        "android_client_info": {
+          "package_name": "com.uvg.diegoflores.labfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8I7y_Ii6cIedy5dqFZEck2SVmrhxixZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

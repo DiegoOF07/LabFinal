@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.uvg.diegoflores.labfinal.presentation.navigation.AppNavigation
 import com.uvg.diegoflores.labfinal.ui.theme.LabFinalTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,28 +21,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             LabFinalTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    AppNavigation(modifier = Modifier.fillMaxSize().padding(innerPadding))
                 }
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    LabFinalTheme {
-        Greeting("Android")
-    }
-}
